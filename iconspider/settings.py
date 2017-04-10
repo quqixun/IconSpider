@@ -64,13 +64,14 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
+
+# Use the built-in pipe line to process files
 ITEM_PIPELINES = {
    'scrapy.contrib.pipeline.images.FilesPipeline': 1,
 }
 
+# Indicate the folder to save icons
 FILES_STORE = '/home/quqixun/Desktop/LearnPY/Scrapy/iconspider/icons'
-
-CLOSESPIDER_ITEMCOUNT = 1000
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

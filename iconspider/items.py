@@ -9,5 +9,10 @@ import scrapy
 
 
 class IconSpiderItem(scrapy.Item):
+    # Indicate the url of an icon
     file_urls = scrapy.Field()
+
+    # Indicate the file of an icon
     files = scrapy.Field()
+
+    # NOTE: DO NOT CHANGE NAMES OF THESE VARIABLES
