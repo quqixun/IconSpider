@@ -29,7 +29,8 @@ class IconSpider(scrapy.Spider):
     name = "icon-spider"
 
     # Indicate the start page
-    start_urls = ["http://www.flaticon.com"]
+    # Not the real website
+    start_urls = ["http://www.example.com"]
 
     # Record how many pages has been scanned
     page_num = 0
